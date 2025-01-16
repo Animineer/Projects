@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    border-radius:10px ;
+    width: 100%;
+    position: static; /* Default position (not fixed) */
+    transition: all 0.5s ease; /* Smooth transition for shrinking */
+  }
+  .navbar.fixed-top {
+    position: fixed; /* Fix the navbar at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure it appears above other content */
+    padding: 5px; /* Shrink padding when fixed */
+    opacity: 0.9;
+    
+  }
+  .navbar h1{
+    border-radius: 12px;
+  }
+
+body{
+    background-color:  #8174A0;
+    color: antiquewhite;
+    
+   
+    font-family: "Poppins", serif;
+}
+.flexall{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+.heading{
+    margin: auto;
+    padding-left: auto;
+}
+body > h1, #flexall4 h1{
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    margin: 2px;
+    color: #8174A0;
+    background-color: #d3d0d1;
+    box-shadow: 2px 2px 2px darkgray ;
+    border-radius: 12px;
+
+}
+div{
+    margin: 8px 8px 8px; 
+}
+ol,ul,dl{
+    margin-top: 40px;
+
+}
+
+.ulist{
+    margin-left: 100px;
+    font-size: small;
+    white-space:nowrap;
+}
+.olist{
+    margin-left: 40px;
+    font-size: small;
+    white-space:nowrap;
+}
+table{
+    background-color: #d3d0d1;
+    color: hsl(258, 50%, 30%);
+    text-align: center;
+    font-weight:bolder;
+    border-radius: 10px;
+    border-color:white;
+    margin: 2px;
+    
+    }
+    fieldset{
+        height: 1000px;
+        margin-top: 80px;
+        padding: 60px;
+    }
+
+#gender{
+
+    margin-top: 100px;
+}
+label{
+   
+    padding: 10 px;
+    margin-top: 1000px;
+    margin-left: 20px;
+    
+}
